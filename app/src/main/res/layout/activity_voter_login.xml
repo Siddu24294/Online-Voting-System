@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_voter_login">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="289dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="57dp"
+        android:text="Voter Log in "
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/voteremaillogin"
+        android:layout_width="284dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="135dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="text"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/voterpwdlogin"
+        android:layout_width="284dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="135dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/voteremaillogin" />
+
+    <Button
+        android:id="@+id/voterloginbtn"
+        android:layout_width="170dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="126dp"
+        android:text="LOG IN"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/voterpwdlogin" />
+
+    <Button
+        android:id="@+id/vregbtn"
+        android:layout_width="148dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="108dp"
+        android:text="Register"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
